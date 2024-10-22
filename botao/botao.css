@@ -29,6 +29,7 @@ button#botao {
   cursor: pointer;
 }
 
+/*! Estilização ao passar em cima do Botão */
 button#botao:hover {
   background: linear-gradient(to right, blue, purple);
   transform: scale(1.1);
