@@ -1,0 +1,36 @@
+/*! Estilização para todos elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*! Estilização para o corpo */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*! Estilização do Botão */
+button#botao {
+  width: 12rem;
+  height: 4rem;
+  font-size: 18px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 40px;
+  background-color: transparent;
+  transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button#botao:hover {
+  background: linear-gradient(to right, blue, purple);
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
