@@ -24,7 +24,7 @@ button#botao {
   border: 3px solid white;
   border-radius: 40px;
   background-color: transparent;
-  transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
