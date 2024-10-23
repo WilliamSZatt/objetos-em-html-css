@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  background-color: gray;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+img#image {
+  width: 5rem;
+  height: 3rem;
+  margin-left: 10px;
+}
+
+header > div#links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10rem;
+  margin-right: 5rem;
+}
+
+header > div#links > a.link {
+  height: 3rem;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+header > div#links > a.link:hover {
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(to right, blue, blueviolet, purple);
+}
